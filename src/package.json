@@ -1,15 +1,9 @@
 {
   "name": "nativescript-plugin-badge-ns-7",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Set the badge number for your app.",
   "main": "badge",
   "typings": "index.d.ts",
-  "nativescript": {
-    "platforms": {
-      "android": "5.2.0",
-      "ios": "5.2.0"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/BlueHunter99/nativescript-plugin-badge"
@@ -50,7 +44,9 @@
     "@nativescript/core": "~7.0.0",
     "@nativescript/types": "~7.0.0",
     "@nativescript/webpack": "~3.0.0",
-    "typescript": "~3.9.0"
+    "typescript": "~3.9.0",
+    "@nativescript/android": "7",
+    "@nativescript/ios": "7"
   },
   "dependencies": {},
   "bootstrapper": "nativescript-plugin-seed",
