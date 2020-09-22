@@ -1,4 +1,4 @@
-export {Notification} from './badge.common';
+export { Notification } from "./badge.common";
 
 export function requestPremissions(): Promise<boolean>;
 
