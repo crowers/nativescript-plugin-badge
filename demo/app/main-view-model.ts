@@ -1,20 +1,20 @@
-import {Observable} from 'tns-core-modules/data/observable';
-import {requestPremissions, setBadge, removeBadge} from 'nativescript-plugin-badge';
+import { Observable } from "@nativescript/core";
+import { requestPremissions, setBadge, removeBadge } from "nativescript-plugin-badge";
 
 export class HelloWorldModel extends Observable {
-    public message: string;
+  public message: string;
 
-    constructor() {
-        super();
+  constructor() {
+    super();
 
-        requestPremissions();
-    }
+    requestPremissions();
+  }
 
-    public setBadgeTo5() {
-        setBadge(5);
-    }
+  public setBadgeTo5() {
+    setBadge(5);
+  }
 
-    public removeBadge() {
-        removeBadge();
-    }
+  public removeBadge() {
+    removeBadge();
+  }
 }
