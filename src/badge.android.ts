@@ -1,3 +1,4 @@
+/// <reference path="./typings/shortcutBadger.d.ts" />
 import { Utils } from "@nativescript/core";
 import { Notification } from "./badge.common";
 

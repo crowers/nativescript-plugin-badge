@@ -1,6 +1,6 @@
 {
   "name": "@crowers/nativescript-plugin-badge-ns-7",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Set the badge number for your app.",
   "main": "badge",
   "typings": "index.d.ts",
